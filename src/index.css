@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: montserrat;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c8c4c4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.nav__link:hover hr {
+    @apply block;
+}
+
+.active hr {
+    @apply block;
+}
+
+@media (max-width: 740px) {
+    .active p {
+        @apply text-white bg-primary
+    }
+}

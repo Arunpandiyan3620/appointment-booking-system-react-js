@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Arunpandiyan3620/Appointment-Booking-System-React-JS.git",
+  "homepage": "https://arunpandiyan3620.github.io/Appointment-Booking-System-React-JS/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

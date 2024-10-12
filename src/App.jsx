@@ -13,8 +13,8 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="mx-4 lg:mx-[10%] md:mx-[5%]">
-      <Navbar className="flex" />
       <Routes>
+        <Navbar className="flex" />
         <Route path="/" element={<Home />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/doctors/:speciality" element={<Doctors />} />
@@ -24,8 +24,8 @@ const App = () => {
         <Route path="/my-profile" element={<MyProfile />} />
         <Route path="/my-appointments" element={<MyAppointment />} />
         <Route path="/appointment/:docId" element={<Appointment />} />
+        <Footer />
       </Routes>
-      <Footer />
     </div>
   );
 };

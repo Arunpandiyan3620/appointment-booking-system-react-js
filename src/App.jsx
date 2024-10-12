@@ -15,7 +15,7 @@ const App = () => {
     <div className="mx-4 lg:mx-[10%] md:mx-[5%]">
       <Navbar className="flex" />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" index element={<Home />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/doctors/:speciality" element={<Doctors />} />
         <Route path="/login" element={<Login />} />
